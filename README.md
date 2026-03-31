@@ -2,6 +2,12 @@
 
 Aplicação de chat em tempo real com frontend em React e backend em Node.js/Koa com Socket.IO.
 
+## Demonstração
+
+- Abra o app em duas abas/navegadores e entre na mesma sala para testar tempo real.
+- URL local: `http://localhost:3001`
+- Exemplo de sala compartilhável: `http://localhost:3001?room=time-a`
+
 ## Requisitos
 
 - Node.js 18+ (recomendado 20+)
@@ -55,6 +61,12 @@ PORT=3001 npm start
 - envio com `Enter` e quebra de linha com `Shift+Enter`
 - timestamp formatado nas mensagens
 - compartilhamento de sala por link (`?room=<nome-da-sala>`)
+
+## Stack Tecnológica
+
+- Frontend: React + socket.io-client
+- Backend: Node.js + Koa + Socket.IO
+- Ferramentas: Nodemon
 
 ## Scripts Úteis
 
